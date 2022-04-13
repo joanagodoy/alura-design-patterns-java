@@ -1,4 +1,4 @@
-package br.alura.loja.situacao;
+package br.alura.loja.orcamento.situacao;
 
 public class Finalizado extends SituacaoOrcamento {
 }

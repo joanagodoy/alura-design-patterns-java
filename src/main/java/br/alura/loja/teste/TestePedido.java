@@ -1,9 +1,9 @@
 package br.alura.loja.teste;
 
-import br.alura.loja.pedido.EnviarEmailPedido;
+import br.alura.loja.pedido.acoes.EnviarEmailPedido;
 import br.alura.loja.pedido.GeraPedido;
 import br.alura.loja.pedido.GeraPedidoHandler;
-import br.alura.loja.pedido.SalvarPedidoNoBanco;
+import br.alura.loja.pedido.acoes.SalvarPedidoNoBanco;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

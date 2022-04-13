@@ -1,4 +1,4 @@
-package br.alura.loja.situacao;
+package br.alura.loja.orcamento.situacao;
 
 import br.alura.loja.DomainException;
 import br.alura.loja.orcamento.Orcamento;

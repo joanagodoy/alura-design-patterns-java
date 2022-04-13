@@ -1,7 +1,7 @@
 package br.alura.loja.orcamento;
 
-import br.alura.loja.situacao.EmAnalise;
-import br.alura.loja.situacao.SituacaoOrcamento;
+import br.alura.loja.orcamento.situacao.EmAnalise;
+import br.alura.loja.orcamento.situacao.SituacaoOrcamento;
 
 import java.math.BigDecimal;
 
