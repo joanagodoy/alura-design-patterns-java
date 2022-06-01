@@ -1,6 +1,7 @@
 package br.alura.loja.teste;
 
 import br.alura.loja.imposto.CalculadoraImpostos;
+import br.alura.loja.imposto.ICMS;
 import br.alura.loja.imposto.ISS;
 import br.alura.loja.orcamento.Orcamento;
 
@@ -11,7 +12,7 @@ public class TesteImposto {
     public static void main(String[] args){
         Orcamento orcamento = new Orcamento(new BigDecimal(100), 1);
         CalculadoraImpostos calculadoraImpostos = new CalculadoraImpostos();
-        System.out.println(calculadoraImpostos.calcular(orcamento, new ISS()));
+        System.out.println(calculadoraImpostos.calcular(orcamento, new ISS(new ICMS(null))));
     }
 
 }
